@@ -7,4 +7,4 @@ FROM openjdk:17.0.1-jdk-slim
 WORKDIR /app
 COPY --from=build /app/target/portfolio-0.0.1-SNAPSHOT.jar portfolio.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "cart.jar"]
+ENTRYPOINT ["java", "-jar", "portfolio.jar"]
