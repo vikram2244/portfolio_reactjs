@@ -21,9 +21,7 @@ import com.web.portfolio.model.Portfoliomodel;
 
 @RestController
 @RequestMapping("/portfolio")
-@CrossOrigin
 public class PortfolioController {
-	 @Value("${FRONTEND_URL}")
 	    private String frontendUrl;
 	 
 	@Autowired
